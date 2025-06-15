@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/primaryColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:src="@drawable/profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_shape"
+            android:clipToOutline="true" />
+
+        <!-- Left-Aligned Details, Centered in Page -->
+        <TextView
+            android:id="@+id/textViewAbout"
+            android:text="Name: Nur Yusaini Binti Yuzaimin\n\nStudent ID: 2024927207\n\nCourse: ICT602 - Mobile Technology\n\n© 2025 Nur Yusaini\n\nGitHub:\nhttps://github.com/yourusername/yourrepository"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
